@@ -9,9 +9,9 @@
       justify-between
     "
   >
-    <span class="font-black text-3xl text-gray-800"
+    <nuxt-link to="/"><span class="font-black text-3xl text-gray-800"
       >grahamsh<span class="text-blue-600">.</span></span
-    >
+    ></nuxt-link>
     <div class="flex">
       <NavLink to="/blog"
         ><svg
