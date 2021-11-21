@@ -2,11 +2,13 @@
   <div
     class="
       bg-blue-50
-      backdrop-blur
+      
       p-5
       border border-blue-100 border-solid
       flex
       justify-between
+      sticky top-0
+      backdrop-filter backdrop-blur-lg bg-opacity-75
     "
   >
     <nuxt-link to="/"><span class="font-black text-3xl text-gray-800"

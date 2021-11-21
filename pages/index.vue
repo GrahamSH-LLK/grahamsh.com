@@ -3,7 +3,7 @@
     <main>
       {{ /* intro */}}
       <div>
-        <img src="/icon.svg" class="my-4" />
+        <img src="/icon.svg" class="my-4 h-48 w-48" />
         <span class="font-black text-4xl"
           >I'm <span class="text-red-400">Graham</span>, coder
           extraordinaire</span

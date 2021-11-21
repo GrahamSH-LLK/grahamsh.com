@@ -1,6 +1,7 @@
 <template>
   <main>
     <h1 class="font-black text-3xl text-red-400">{{ post.title }}</h1>
+    <p class="font-light">By {{ post.author || 'GrahamSH' }}</p>
     <article class="prose-red prose">
         <nuxt-content :document="post"/>
     </article>
