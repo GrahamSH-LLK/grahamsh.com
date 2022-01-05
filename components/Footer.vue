@@ -2,16 +2,7 @@
   <!-- Section 1 -->
   <section class="text-gray-700 bg-white body-font">
     <div
-      class="
-        container
-        flex flex-col
-        items-center
-        px-8
-        py-8
-        mx-auto
-        max-w-7xl
-        sm:flex-row
-      "
+      class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row"
     >
       <nuxt-link
         to="/"
@@ -19,24 +10,17 @@
         >grahamsh<span class="text-blue-600">.</span></nuxt-link
       >
       <p
-        class="
-          mt-4
-          text-sm text-gray-500
-          sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0
-        "
+        class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0"
       >
         © 2021 GrahamSH
       </p>
       <span
-        class="
-          inline-flex
-          justify-center
-          mt-4
-          space-x-5
-          sm:ml-auto sm:mt-0 sm:justify-start
-        "
+        class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start"
       >
-        <a href="https://github.com/GrahamSH-LLK" class="text-gray-400 hover:text-gray-500">
+        <a
+          href="https://github.com/GrahamSH-LLK"
+          class="text-gray-400 hover:text-gray-500"
+        >
           <span class="sr-only">Github</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"

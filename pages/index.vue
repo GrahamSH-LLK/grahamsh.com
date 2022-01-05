@@ -13,7 +13,7 @@
       {{ /* about */}}
       <div class="prose my-10">
         <h2>About me</h2>
-        <p>Insert good text about me here</p>
+        <p>I'm a coder on the internet. I'm also a volunteer at <a href="https://fosshost.org/">Fosshost</a>.</p>
 
         <h2>Technologies I use</h2>
         <div>

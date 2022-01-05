@@ -30,7 +30,6 @@ jobs:
           check-latest: true
           cache: 'npm'
 
-
       - name: Install dependencies 👨🏻‍💻
         run: npm ci --prefer-offline --no-audit
 
@@ -43,5 +42,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           cname: beta.grahamsh.com
-
-

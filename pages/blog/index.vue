@@ -14,7 +14,9 @@
           v-for="post of posts"
           :key="post.slug"
         >
-          <h1 class="font-bold text-2xl text-red-500 mb-1"><nuxt-link :to="`/blog/${post.slug}`">{{ post.title }}</nuxt-link></h1>
+          <h1 class="font-bold text-2xl text-red-500 mb-1">
+            <nuxt-link :to="`/blog/${post.slug}`">{{ post.title }}</nuxt-link>
+          </h1>
           <span class="font-light mb-1">By {{ post.author }}</span>
           <p>{{ post.description }}</p>
         </div>
