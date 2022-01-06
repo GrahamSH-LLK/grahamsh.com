@@ -33,7 +33,7 @@ export default {
     }
   },
   async fetch() {
-    let posts = await this.$content('blog').fetch()
+    let posts = await this.$content('blog').sortBy("date", "desc").fetch()
     this.posts = posts
   },
 }
