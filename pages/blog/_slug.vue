@@ -10,6 +10,10 @@
 
 <script>
 export default {
+  head() {
+    return { title: `${this.post.title} | grahamsh.com` }
+  },
+
   data() {
     return {
       post: {},
