@@ -1,21 +1,21 @@
 <template>
   <!-- Section 1 -->
-  <section class="text-gray-700 bg-white body-font">
+  <section class="text-gray-100 body-font">
     <div
-      class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row"
+      class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row "
     >
       <nuxt-link
         to="/"
-        class="text-xl font-black leading-none text-gray-900 select-none"
+        class="text-xl font-black leading-none text-gray-200 select-none"
         >grahamsh<span class="text-blue-600">.</span></nuxt-link
       >
       <p
         class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0"
       >
-        © 2021 GrahamSH
+        ©<NuxtTime :datetime="Date.now()"     year="numeric"/> Graham
       </p>
       <span
-        class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start"
+        class="inline-flex justify-center mt-4 space-x-5 sm:ml-3 sm:mt-0 sm:justify-start"
       >
         <a
           href="https://github.com/GrahamSH-LLK"

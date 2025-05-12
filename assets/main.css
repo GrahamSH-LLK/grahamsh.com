@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --animate-scanlines: scanlines infinite 55s linear;
+
+  @keyframes scanlines {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 0 -110px;
+    }
+  }
+}
+body {
+   @apply bg-black;
+ }

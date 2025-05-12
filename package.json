@@ -3,20 +3,22 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "nuxi start",
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content": "^1.15.1",
-    "@nuxtjs/pwa": "^3.3.5",
-    "@tailwindcss/typography": "^0.4.1",
+    "@nuxt/content": "^3.5.1",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.1.5",
     "core-js": "^3.21.0",
-    "nuxt": "^2.15.7"
+    "motion-v": "^1.1.0-alpha.1",
+    "nuxt": "^3.17.2",
+    "tailwindcss": "^4.1.5"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^4.2.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
     "eslint-config-prettier": "^8.3.0",
     "postcss": "^8.4.7",
     "prettier": "^2.5.0"
