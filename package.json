@@ -9,7 +9,6 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content": "^3.5.1",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.5",
     "core-js": "^3.21.0",
