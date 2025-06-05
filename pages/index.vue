@@ -25,16 +25,19 @@
         <div class="flex flex-col gap-2">
           <Project
             title="FRCTools"
+            image="frctools"
             link="https://frctools.com"
-            description="Custom search engine and frontend for the FIRST Robotics Competition rules base utilizing LLM embeddings for accurate semantic search. Built with Nuxt and Tailwind."
+            description="Custom search engine and frontend for the FIRST Robotics Competition rules base utilizing LLM embeddings for accurate semantic search used by thousands yearly. Built with Nuxt and Tailwind."
           ></Project>
           <Project
             title="Lunch"
+            image="lunch"
             link="https://lunch.grahamsh.com/lunch"
             description="Daily lunch information from reverse engineered provider API presented in an elegant interface. Built with Tailwind and Sveltekit."
           ></Project>
           <Project
             title="Special Dates"
+            image="special_dates"
             link="https://lunch.grahamsh.com/dates/special/all"
             description="Automated tracker of special school schedules. Built with Tailwind and Sveltekit."
           ></Project>
@@ -45,6 +48,7 @@
           ></Project>
           <Project
             title="Ejenda"
+            image="ejenda"
             link="https://ejenda.org"
             description="Smart assignment tracker built with students in mind. Built with Nuxt, Tailwind, Drizzle, and Postgres."
           ></Project>

@@ -1,7 +1,7 @@
 <template>
   <motion.div
     class="text-white flex items-center"
-    :whileHover="{ scale: 1.02 }" :initial="{ scale: 1 }"
+    :whileHover="{ scale: 1.02 }" :initial="{ scale: 'none' }"
   >
     <slot />
     <hr class="flex-1 !my-0 ml-2 border-white">
