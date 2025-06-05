@@ -30,6 +30,12 @@
             description="Custom search engine and frontend for the FIRST Robotics Competition rules base utilizing LLM embeddings for accurate semantic search used by thousands yearly. Built with Nuxt and Tailwind."
           ></Project>
           <Project
+            title="Writing Center Scheduler"
+            image="wctool"
+            description="Fully integrated scheduler for school peer tutoring center for clients, tutors, and writing center directors. Built with Nuxt, Drizzle, and Cloudflare D1."
+          ></Project>
+
+          <Project
             title="Lunch"
             image="lunch"
             link="https://lunch.grahamsh.com/lunch"

@@ -4,7 +4,7 @@
     :initial="{ scale: 'none' }"
   >
     <a :href="link" class="no-underline font-normal">
-      <img v-if="image" :src="`/${image}.png`" />
+      <NuxtImg v-if="image" :src="`/${image}.png`" />
       <div class="text-white flex items-center font-bold">
         {{ title }}
         <hr class="flex-1 !my-0 ml-2 border-white" />

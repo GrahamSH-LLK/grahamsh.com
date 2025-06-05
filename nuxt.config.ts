@@ -17,7 +17,7 @@ export default defineNuxtConfig({
     ],
   },
 
-  modules: ['motion-v/nuxt'],
+  modules: ['motion-v/nuxt', '@nuxt/image'],
 
   vite: {
     plugins: [tailwindcss()],
