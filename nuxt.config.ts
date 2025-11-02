@@ -1,6 +1,6 @@
 import tailwindcss from '@tailwindcss/vite'
 export default defineNuxtConfig({
-   css: ['~/assets/main.css'],
+  css: ['~/assets/main.css'],
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -17,9 +17,16 @@ export default defineNuxtConfig({
     ],
   },
 
-  modules: ['motion-v/nuxt', '@nuxt/image'],
+  modules: ['motion-v/nuxt', '@nuxt/image', '@nuxtjs/plausible'],
 
   vite: {
     plugins: [tailwindcss()],
   },
+  plausible: {
+    // Prevent tracking on localhost
+    apiHost: 'https://possible.grahamsh.com',
+    ignoredHostnames: ['localhost'],
+    autoOutboundTracking: true
+  },
+
 })

@@ -30,6 +30,12 @@
             description="Custom search engine and frontend for the FIRST Robotics Competition rules base utilizing LLM embeddings for accurate semantic search used by thousands yearly. Built with Nuxt and Tailwind."
           ></Project>
           <Project
+            title="FRCTools Orders"
+            image="orders"
+            link="https://orders.frctools.com"
+            description="Custom order tracking platform built for FIRST Robotics Comptetion teams with special integrations for FRC vendors and team permissions and management."
+          ></Project>
+          <Project
             title="Writing Center Scheduler"
             image="wctool"
             description="Fully integrated scheduler for school peer tutoring center for clients, tutors, and writing center directors. Built with Nuxt, Drizzle, and Cloudflare D1."
@@ -47,6 +53,12 @@
             link="https://lunch.grahamsh.com/dates/special/all"
             description="Automated tracker of special school schedules. Built with Tailwind and Sveltekit."
           ></Project>
+          <Project 
+            title="Swambase"
+            image="swambase"
+            link="https://swambase.grahamsh.com/teams/1"
+            description="Full stack swim team result and entry tracker built on reverse engineered exports from legacy team software."
+            />
           <Project
             title="Dates"
             link="https://lunch.grahamsh.com/dates"
@@ -58,6 +70,7 @@
             link="https://ejenda.org"
             description="Smart assignment tracker built with students in mind. Built with Nuxt, Tailwind, Drizzle, and Postgres."
           ></Project>
+
         </div>
         <h2>Experience</h2>
         <div>
