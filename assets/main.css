@@ -4,7 +4,7 @@
 
 @theme {
   --animate-scanlines: scanlines infinite 55s linear;
-
+  --font-sans: "Bricolage Grotesque", sans-serif;
   @keyframes scanlines {
     from {
       background-position: 0 0;
